@@ -1,0 +1,57 @@
+#Code Blocks
+### HTML
+```
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Fizz Buzz</title>
+<script>
+
+function fizzbuzz() {
+	var display = document.getElementById('display');
+	var displayHTML = "";
+	for (i = 0; i < 100; i++) {
+		displayHTML += "<p>" + i + "</p>";
+	}
+	display.innerHTML = displayHTML;
+}
+
+</script>
+
+</head>
+
+<body onload="fizzbuzz()">
+<div id="display">
+
+</div>
+</body>
+
+</html>
+
+```
+### PYTHON
+```
+print("1.Volume of Cone")
+print("2.Volume of Cylinder")
+print("3.Volume of Cube")
+selection= int(input("Enter Your Choice:"))   
+if selection== 1:
+    r=float(input("Radius:"))
+    h=float(input("Height:"))
+    volume=(3.14156*r*r*h)/3
+    print("Volume of cone is",volume)  
+elif selection== 2:
+    r=float(input("Radius:"))
+    h=float(input("Height:"))
+    volume=(3.14156*r*r*h)
+    print("Volume of cylinder is",volume)
+elif selection== 3:
+    l=float(input("Length:"))
+    volume=(l*l*l)
+    print("Volume of cube is",volume)
+else:
+    print("ERROR: Invalid choice! Please rerun and enter only 1-3")
+exit 
+ ``` 
+[return to home page](./README.md)
