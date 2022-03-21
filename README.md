@@ -9,7 +9,6 @@ Navigate my website using these links
 * [Contact Information](./contact information.md)
 * [Media & Links](./media & links.md)
 
-skills & interests.md
 # Skills & Interests
 ## Skills
 1. Project Management
@@ -24,7 +23,6 @@ skills & interests.md
 
 [Go back to home page](./README.md)
 
-Leadership & Experience.md
 # Leadership & Experience
 
 ## Leadership 
@@ -96,7 +94,6 @@ exit
  ``` 
 [return to home page](./README.md)
 
-Contact Information.md
 # Contact Information
 1. Phone Number: (636)346-8456
 1. Email Address: Komeni@gmail.com
